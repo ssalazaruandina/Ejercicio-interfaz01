@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { RegistrarNotasComponent } from './registrar-notas/registrar-notas.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrarNotasComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
